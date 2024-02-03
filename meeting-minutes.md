@@ -8,15 +8,16 @@
 ## Notes
 1. Refer to the [unity-install-guide](https://github.com/WinterBlue-CEG4110/Team-Project/blob/MI-00-unity-install-guide/unity-install-guide.md) for Unity installation process. 
 2. Decided to proceed with Waterfall Methodology. More details on [sdp.md](https://github.com/WinterBlue-CEG4110/Team-Project/blob/MI-00-unity-install-guide/sdp.md)
+3. Discussed meeting details (date, time, method, etc.)
+4. Added milestones to the development plan
 
 ## Action Items
-* Group Member `n`
-    * Action Item 1
-    * Action Item 2
-    * Action Item 3
+* Everyone 
+    * Setup Unity Environment
+    * Get started on learning Unity Engine
 
 ## Contributors
-Remove this line. Each Member should directly add their name as a _separate commit_ from the creation of the meeting-minutes.md file
-* Group Member
-* Group Member
-* Group Member
+* John
+* Kha
+* Long
+* Thavindu
