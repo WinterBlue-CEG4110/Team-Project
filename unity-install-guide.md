@@ -10,4 +10,4 @@
 
 6. OPTIONAL: If using Visual Studio Code, install C# Dev Kit by Microsoft (it will prompt you to login to get some bullshit microsoft benefits, but this can be safely ignored)
 
-Looking up some basic how-tos on youtube or going through Unity's in-built tutorials is highly recommended! A lot of this project will be about learning as we go.
+Looking up some basic how-tos on youtube or going through Unity's in-built tutorials is highly recommended! A lot of this project will be about learning as we go.=
