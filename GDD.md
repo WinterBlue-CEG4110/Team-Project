@@ -18,7 +18,7 @@ Playermovement
   |
 Player moves left to right at the bottom of the screen
 <--<^>-->
-Player shoots automatically
+Player shoots automatically (a particle or object with a collider that determines hit)
 Shots go in a straight line up accompanied by a sound effect
 
 Player has MAXIMUM 5 hits  + + + + +
@@ -26,20 +26,25 @@ Player has MAXIMUM 5 hits  + + + + +
 Enemies can come in from the top
 Enemies have different spawn rates which increase as time goes on, except for the B0ss
 Enemies can drop powerups
-'[E]' - What do they do?
-        
 
+Enemies come in different varieties. Different enemy varieties have different appearances and behaviors.         
 
-Collider = ;[C];
-    HP = 1
-    Moves in a set path
-    Damages in
+//Design ideas from Kha Le
+Rock = [[[R]]]
+        Hp = inf
+        Floats down at varying speeds, some slowly (static), some quickly
+        Gets in the way. Causes damage with a collider. 
+        Non destructible.
+        Moves past the screen and vanishes.
+        Spawns at a regular rate
 
-Rock = [[[Dwayne]]]
-        Hp = 5
-        Moves down (slowly)
-        Gets in the way by being BIG
-        Destructible?
+Shooter = |[s]|
+            HP = 3
+            Stay on top of the screen
+            Moves side to side, like the player
+            Shoots at the player intermittently (slower version of the player's projectile?)
+            Spawn rate increases based on a factor of gametime (1 ever 10 seconds becomes 1 every 8 seconds etc)
+            Shoots over rocks (they are a better shot than you)
 
 Audio: Flying, shooting, explosion, collision, enemy noises?, warning sound for boss, menu music, game music, menu select noises
 
@@ -47,22 +52,14 @@ User Interface: Main menu, health indicator, timer, score, game over screen
 
 Features if time permits...     
          
-Shooter = |[s]|
-            HP = 2
-            Stay on top of the screen
-            Moves side to side, like the player
-            Shoots at the player intermittently (slower version of the player's projectile?)
-        
-B0ss = {  []B[]   }
-        Hp = 20 * boss spawn
-        Every five? minutes (set amount of time) one spawns
-        BIG boi sits at the top-middle of the screen (moves slowly?)
-        LOTS of gun
-        Shaped like the state of Ohio
-        Blow him up for BIG score points
+Special enemies with different behaviors... (bosses, event based enemies):
+If an event like this triggers, we want to pause the usual spawning behavior of other enemies
 
 POWER UPS (needs accompanying audio and user interface!)-
 
     Shield (p) = Takes ONE hit for the player
     Armor (a) = Repairs the player's hit points (Kill John Cena to get it)
     Weapon upgrades? (w+) = Modifies the player's weapon with new effects
+    Power-Up ideas:
+    phase drive = player moves VERY quickly for a short duration, ignoring rocks and other damage sources (turn off the colliders?) 
+    (and applying a score multiplier)
