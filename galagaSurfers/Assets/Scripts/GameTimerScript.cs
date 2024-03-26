@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//Created by: John McGuff
 //Script for a game timer UI element
 public class GameTimerScript : MonoBehaviour
 {

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//Created by: John McGuff
 //Script handling the player's score
 public class PlayerScoreScript : MonoBehaviour
 {
