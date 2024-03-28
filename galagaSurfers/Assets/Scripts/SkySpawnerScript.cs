@@ -2,8 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-//Creates more background objects to help maintain the illusion of movement.
-//Objects are spawned and then fall down on their own due to the BackgroundScript
+/// <summary>
+/// Creates more background objects to help maintain the illusion of movement.
+/// Objects are spawned and then fall down on their own due to the BackgroundScript
+/// Written By Thavi
+/// </summary>
 public class SkySpawnerScript : MonoBehaviour
 {
     public GameObject sky;

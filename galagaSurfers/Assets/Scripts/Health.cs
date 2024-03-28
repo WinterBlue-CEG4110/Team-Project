@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Manages Player Health
+/// Written By Thavi
+/// </summary>
 public class Health : MonoBehaviour
 {
     public int maxHealth = 3; 
@@ -13,14 +17,12 @@ public class Health : MonoBehaviour
     public AudioClip damageAudioClip;
     public GameObject restartButton;
 
+    public bool isImmune; 
     private int currentHealth; 
     private bool isInvincible; 
-    private bool isImmune; 
     private Renderer modelRenderer;
 
     private Coroutine blinkCoroutine;
-
-    private bool isSheildActivated;
 
     void Start()
     {

@@ -1,5 +1,9 @@
 using UnityEngine;
 
+/// <summary>
+/// Manages all sound in the game
+/// Written By Thavi
+/// </summary>
 public class SoundManager : MonoBehaviour
 {
 

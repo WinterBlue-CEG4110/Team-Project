@@ -3,6 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Gives Damage to player on button click
+/// Written By Thavi
+/// </summary>
 public class Damage : MonoBehaviour
 {
     

@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Manages Gmae Inputs
+/// Written By Thavi
+/// </summary>
 public class GameInput : MonoBehaviour
 {
     [SerializeField] private PlayerShootingManager shootingManager;

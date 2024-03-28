@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Manages all game assets at one place
+/// Written By Thavi
+/// </summary>
 public class GameAssets : MonoBehaviour {
 
     public static GameAssets _i;

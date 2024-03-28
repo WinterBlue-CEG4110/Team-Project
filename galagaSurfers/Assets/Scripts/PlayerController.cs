@@ -2,14 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Manages Player Controller Mechanics
+/// Written By Thavi
+/// </summary>
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] [Range(0f,10f)] private float moveSpeed;
 
     [SerializeField] private Renderer Renderer;
     [SerializeField] private GameInput gameInput;
+    public PlayerShootingManager shootingManager;
+    public Health health;
 
-    private float offset = 0.5f; 
+    private float offset = 0.5f;
 
     void Update()
     {

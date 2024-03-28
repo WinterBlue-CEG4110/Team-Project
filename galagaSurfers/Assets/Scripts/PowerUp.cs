@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Base Class for all powerups in the game
+/// Written By Thavi
+/// </summary>
 public class PowerUp : MonoBehaviour
 {
     public float moveSpeed;

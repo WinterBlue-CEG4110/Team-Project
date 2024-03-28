@@ -4,7 +4,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-//Script for a game timer UI element
+/// <summary>
+///Script for a game timer UI element
+/// Written By Thavi
+/// </summary>
 public class GameTimerScript : MonoBehaviour
 {
     public float gameTimer;

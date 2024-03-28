@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-//Script handling the player's score
+/// <summary>
+/// Script handling the player's score
+/// Written By Thavi
+/// </summary>
 public class PlayerScoreScript : MonoBehaviour
 {
     public int playerScore = 0;

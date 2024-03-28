@@ -3,6 +3,10 @@ using DigitalRuby.Pooling;
 using UnityEngine.InputSystem;
 using UnityEditor;
 
+/// <summary>
+/// Manages Player Shooting Mechanics
+/// Written By Thavi
+/// </summary>
 public class PlayerShootingManager : MonoBehaviour
 {
 
@@ -14,6 +18,8 @@ public class PlayerShootingManager : MonoBehaviour
     private const string key_projectile_upgrade = "Projectile_Upgrade";
 
     private string currentProjectile = key_projectile_base;
+
+    public bool isPowerEquipped;
 
     private void Awake()
     {
@@ -43,11 +49,13 @@ public class PlayerShootingManager : MonoBehaviour
 
     public void UpgradeProjectile()
     {
+        isPowerEquipped = true;
         currentProjectile = key_projectile_upgrade;
     }
 
     public void DowngradeProjectile()
     {
+        isPowerEquipped = false;
         currentProjectile = key_projectile_base;
     }
 }

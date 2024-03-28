@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Manages Game State
+/// Written By Thavi
+/// </summary>
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
