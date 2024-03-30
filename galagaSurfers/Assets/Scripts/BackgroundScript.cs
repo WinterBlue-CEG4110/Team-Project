@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Created by: John McGuff
+//Gives the illusion of forward momentum with a scrolling background
+
 public class BackgroundScript : MonoBehaviour
 {
     public float moveSpeed = 3;
