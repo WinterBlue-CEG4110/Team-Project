@@ -5,7 +5,6 @@ using UnityEngine;
 /// <summary>
 /// Creates more background objects to help maintain the illusion of movement.
 /// Objects are spawned and then fall down on their own due to the BackgroundScript
-/// Written By Thavi
 /// </summary>
 public class SkySpawnerScript : MonoBehaviour
 {

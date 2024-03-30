@@ -5,7 +5,6 @@ using UnityEngine;
 
 /// <summary>
 /// Gives the illusion of forward momentum with a scrolling background
-/// Written By Thavi
 /// </summary>
 public class BackgroundScript : MonoBehaviour
 {

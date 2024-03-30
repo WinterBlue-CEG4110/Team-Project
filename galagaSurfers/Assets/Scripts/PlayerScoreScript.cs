@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 /// <summary>
 /// Script handling the player's score
-/// Written By Thavi
 /// </summary>
 public class PlayerScoreScript : MonoBehaviour
 {

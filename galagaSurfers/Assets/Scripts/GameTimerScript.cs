@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 /// <summary>
 ///Script for a game timer UI element
-/// Written By Thavi
 /// </summary>
 public class GameTimerScript : MonoBehaviour
 {
