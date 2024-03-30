@@ -3,9 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-/// <summary>
-/// Script handling the player's score
-/// </summary>
 public class PlayerScoreScript : MonoBehaviour
 {
     public int playerScore = 0;
