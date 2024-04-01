@@ -27,6 +27,7 @@
             * Each time a player gets attacked by an enemy, one heart is lost
         * 2.53: Player regenerates where they were attacked as long as there are lives
             * Player can progress from where they lost
+            * Player will also lose the Projectile Powerup if it was equipped
         * 2.54: Player has to restart when all lives are lost (game over)
             * Progress from the beginning
 
