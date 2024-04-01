@@ -11,7 +11,8 @@
         * Powerups will spawn from the top of the screen
         * Player has to catch them in order to equip
         * Two Types of Powerups
-            * Projectile Powerup: Upgrades to firing two projectiles at once
+            * Projectile Powerup: 
+                * Upgrades to firing two projectiles at once
             * Shield: 
                 * A temporary shield provides protection from enemy attacks
                 * The shield lasts 10 seconds before depleteion or if it gets hit before that
