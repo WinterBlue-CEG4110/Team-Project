@@ -6,7 +6,7 @@
         * Using ← and → keyboard buttons on the keyboard, player can move left and right on the screen
     * 2.3: Player character fires a projectile
         * 2.31: Projectile is fired upon pressing a key
-            * Upon pressing the <SPACEBAR> key once, the player spaceship fires a projectile
+            * Upon pressing the `<SPACEBAR>` key once, the player spaceship fires a projectile
     * 2.4: Powerups that alter fired projectile/player stats
         * Powerups will spawn from the top of the screen
         * Player has to catch them in order to equip
