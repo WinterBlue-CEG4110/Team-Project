@@ -47,5 +47,4 @@
   * 5.1: Sounds for gameplay (player/enemy projectile noises)
   * 5.2: Background music
   * 5.3: Menu sounds
-  * 5.4: Music and sound is adjustable 
 
