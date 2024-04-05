@@ -9,10 +9,16 @@ using UnityEngine;
 /// </summary>
 public class Damage : MonoBehaviour
 {
-    
+    AudioManager audioManager;
+
+    private void Awake() {
+        audioManager = GameObject.FindGameObjectWithTag("KhaAudio").GetComponent<AudioManager>();
+    }
+
     [Button(buttonSize:1)]
     public void DamagePlayer()
     {
+        audioManager.PlaySFX(audioManager.buttonClick);
         if (GameManager.Instance._gameState == GameState.gameOver)
             return;
 

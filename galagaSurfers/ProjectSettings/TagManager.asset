@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Boundry
+  - KhaAudio
   layers:
   - Default
   - TransparentFX
