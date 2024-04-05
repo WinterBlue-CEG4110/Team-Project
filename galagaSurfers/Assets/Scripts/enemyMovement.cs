@@ -1,3 +1,4 @@
+// created by: Long Nguyen
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -36,6 +37,10 @@ public class enemyMovement : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Boundry")
+        {
+            Respawn();
+        }
+        if (collision.gameObject.tag == "Player")
         {
             Respawn();
         }
