@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 public class PauseMenuScript : MonoBehaviour
 {
     public GameObject pauseUI;
+    public GameObject optionsUI;
     public static bool isPaused = false;
     //Checks to see if the Escape key is pressed
     void Update() {
@@ -37,6 +38,10 @@ public class PauseMenuScript : MonoBehaviour
         //Have to use the Resume() method to reset bools, pause menu visibility, and timescale
         Resume();
         SceneManager.LoadScene("StartMenu");
+    }
+    public void optionsMenu() {
+        optionsUI.SetActive(true);
+        pauseUI.SetActive(false);
     }
 
 }
