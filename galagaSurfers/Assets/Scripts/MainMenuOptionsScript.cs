@@ -4,8 +4,10 @@ using UnityEngine;
 using UnityEngine.Audio; // KL
 using UnityEngine.UI; // KL
 
-//Created by: John McGuff, Kha Le
+//Created by: John McGuff
 //Controls the options menu for the MainMenu Scene
+//Created by: Kha Le
+//Controls the menu music volume for the MainMenu Scene
 public class MainMenuOptionsScript : MonoBehaviour
 {
     public AudioMixer myMixer; // KL
@@ -36,13 +38,13 @@ public class MainMenuOptionsScript : MonoBehaviour
     public void SetMusicVolume() { // KL
         // Set the music parameter base on slider value
         float volume = mySlider.value;
-        // myMixer.SetFloat("music", volume); The slider value ranges from 0 to 1 only
+        // myMixer.SetFloat("music", volume); The slider value ranges from 0 to 1 only, which is not helpful
         myMixer.SetFloat("music", Mathf.Log10(volume)*20);
         PlayerPrefs.SetFloat("musicVolume", volume); // Save value of volume
     }
 
     private void LoadVolume() { // KL
         mySlider.value = PlayerPrefs.GetFloat("musicVolume"); // Load previous volume setting
-        SetMusicVolume();
+        SetMusicVolume(); // Set the volume using loaded value
     }
 }

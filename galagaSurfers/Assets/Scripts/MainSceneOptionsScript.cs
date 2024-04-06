@@ -3,8 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio; // KL
 using UnityEngine.UI; // KL
-//Created by: John McGuff, Kha Le
+
+//Created by: John McGuff
 //Script that controls the behaviour of the options menu UI in the main scene
+//Created by: Kha Le
+//Script that controls the in-game music volume in the main scene
+
 public class MainSceneOptionsScript : MonoBehaviour
 {
     public GameObject pauseUI;
@@ -17,7 +21,7 @@ public class MainSceneOptionsScript : MonoBehaviour
         if (PlayerPrefs.HasKey("musicVolume")) {
             LoadVolume();
         } else {
-           SetMusicVolume(); 
+            SetMusicVolume(); 
         }
     }
 
@@ -41,6 +45,6 @@ public class MainSceneOptionsScript : MonoBehaviour
 
     private void LoadVolume() { // KL
         mySlider.value = PlayerPrefs.GetFloat("musicVolume"); // Load previous volume setting
-        SetMusicVolume();
+        SetMusicVolume(); // Set volume using loaded value
     }
 }
