@@ -63,6 +63,6 @@ public class Data{
 
 public class ScoreComparer : IComparer<Data>{
     public int Compare(Data a, Data b){
-        return a.g_Score.CompareTo(b.g_Score);
+        return -a.g_Score.CompareTo(b.g_Score);
     }
 }
