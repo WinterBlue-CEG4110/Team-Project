@@ -20,7 +20,7 @@
         ![shoot](./MVP-media/2.3.1.png)
 
   * 2.4: Powerups that alter fired projectile/player stats
-    * `Powerups` class of `Powerups.cs` has the framework for power-ups in the game. Powerups spawn and move downward in the game. `moveSpeed` determines that speed. `pickupAudioClip` will be played when the powerups are picked up by the player. `OnTriggerEnter2D(Collider2D collision)` is the powerup collision detection when a player tries to pick up a powerup.
+    * `PowerUp` class of `PowerUp.cs` has the framework for power-ups in the game. Powerups spawn and move downward in the game. `moveSpeed` determines that speed. `pickupAudioClip` will be played when the powerups are picked up by the player. `OnTriggerEnter2D(Collider2D collision)` is the powerup collision detection when a player tries to pick up a powerup.
       ![collision](./MVP-media/2.4.0.png)
     * Shield Powerup: `PowerUpShield` class of `PowerUpShield.cs` represents a specific type of power-up that, upon collision with the player character, activates a shield to provide protection
      ![shield](./MVP-media/2.4.1.png)
