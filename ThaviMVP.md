@@ -9,13 +9,15 @@
        ![Move()](./MVP-media/2.1.png)
 
   * 2.2: Moves left and right with keyboard controls
-    * In PlayerInputActions(), `<Keyboard>` Left and Right refer to the specific keys on the keyboard that are mapped to the player's left and right movement, respectively. Input from these keys triggers the player object to go left or right using left or right arrow keys
+    * In @PlayerInputActions(), `<Keyboard>` Left and Right refer to the specific keys on the keyboard that are mapped to the player's left and right movement, respectively. Input from these keys triggers the player object to go left or right using left or right arrow keys
       ![LeftAndRight](./MVP-media/2.2.png)
 
   * 2.3: Player character fires a projectile
     * Projectile Class makes the projectile move vertically upwards at a constant speed defined by moveSpeed. It implements a projectile that falls or moves upward in the game world.
       ![Projectile](./MVP-media/2.3.png)
-     * 2.31: Projectile is fired upon pressing a key
+      * 2.31: Projectile is fired upon pressing a key
+        * In @PlayerInputActions(), "shoot" is the action which fires a projectile. This action has a binding (Unnamed: """") which makes the action "shoot" trigger by pressing the spacebar on the `<Keyboard>`
+        ![shoot](./MVP-media/2.3.1.png)  
 
    
 
