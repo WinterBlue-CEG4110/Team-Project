@@ -28,8 +28,7 @@
   * 2.5: Player character can be damaged after getting hit once by an enemy
     * 2.51: Player character is briefly invincible after being hit (indicated by blinking model)
       * In `Health.cs`, `BecomeInvincible()` coroutine sets the `isInvincible` flag to true, indicating that the player is currently in an invincible state. It then starts another coroutine called `StartBlinking()` to make the player model blink. `BlinkModel()` coroutine continuously toggles the visibility of the player model's renderer component while the `isInvincible` flag is true. It toggles the visibility by setting `modelRenderer.enabled` to the opposite of its current value.
-      ![blinkmodel](./MVP-media/2.5.1.png)   
-
-   
-
-
+      ![blinkmodel](./MVP-media/2.5.1.png)
+   * 2.52: Player has three hitpoints/lives/hearts
+     * In `Health` class of `Health.cs`, `Start()` initializes the health variables and sets the `currentHealth` to `maxHealth` so that at the start of the game, the player will have three hearts.
+     ![hearts](./MVP-media/2.5.2.png)  
