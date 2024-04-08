@@ -8,5 +8,5 @@
        5.  Updates the player's position to the calculated new position
        ![Move()](./MVP-media/2.1.png)
 
- * 2.2: Moves left and right with keyboard controls
+  * 2.2: Moves left and right with keyboard controls
     *
