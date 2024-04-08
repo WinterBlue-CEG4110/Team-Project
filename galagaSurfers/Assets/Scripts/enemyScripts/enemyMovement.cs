@@ -43,6 +43,7 @@ public class enemyMovement : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             Respawn();
+            collision.gameObject.GetComponent<Health>().TakeDamage();
         }
     }
 
