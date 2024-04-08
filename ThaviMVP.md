@@ -31,4 +31,9 @@
       ![blinkmodel](./MVP-media/2.5.1.png)
    * 2.52: Player has three hitpoints/lives/hearts
      * In `Health` class of `Health.cs`, `Start()` initializes the health variables and sets the `currentHealth` to `maxHealth` so that at the start of the game, the player will have three hearts.
-     ![hearts](./MVP-media/2.5.2.png)  
+     ![hearts](./MVP-media/2.5.2.png)
+
+   * 2.53 & 2.54: Player regenerates where they were attacked & Player has to restart when all lives are lost
+     * `TakeDamage()` of `Health.cs` checks for immunity (shield: on or off), if invinsibility is not on, deducts hearts if player was hit by enemies and updates the UI. If there are enough lives left, player respawns. If not, the instance will indicate that the game is over
+     ![gameover](./MVP-media/2.5.3_2.5.4.png)
+
