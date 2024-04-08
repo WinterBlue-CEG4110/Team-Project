@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "ScoreData", menuName = "New Score Data", order = 1)]
@@ -10,9 +11,9 @@ public class ScoreData : ScriptableObject
     *   Getter / Setter property for List of scores.
     */
     public Data[] Scores { 
-        get{
-Array.Sort(this._scores, new ScoreComparer());
-return this._scores;
+    get{
+    Array.Sort(this._scores, new ScoreComparer());
+    return this._scores;
 } 
         set{
             for (int i = 0; i < this._scores.Length; i++){
@@ -32,6 +33,48 @@ return this._scores;
         for(int i = 0; i < 10; i++)
             _scores[i] = new Data();
     }
+
+    public void Save() {
+        string json = JsonUtility.ToJson(this, true);
+        WriteToFile(json);
+    }
+
+    public void Load(){
+        ScoreData newData = new ScoreData();
+        string json = ReadFromFile();
+        JsonUtility.FromJsonOverwrite(json, newData);
+        for(int i = 0; i < newData.Scores.Length - 1; i++){
+            this._scores[i] = newData._scores[i];
+        }
+    }
+
+    private void WriteToFile(string json){
+        string path = GetFilePath();
+        FileStream fileStream = new FileStream(path, FileMode.Create);
+
+        using(StreamWriter writer = new StreamWriter(fileStream)){
+            writer.Write(json);
+        }
+    }
+
+    private string ReadFromFile(){
+        string path = GetFilePath();
+        if(File.Exists(path)){
+            using(StreamReader reader = new StreamReader(path)){
+                string json = reader.ReadToEnd();
+                return json;
+            }
+        }
+        else{
+            Debug.LogWarning("FNF");
+            return "";
+        }
+    }
+
+    private string GetFilePath(){
+        return Application.dataPath+ "/Scores.json";
+    }
+
 }
 
 [System.Serializable]

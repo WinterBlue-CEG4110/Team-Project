@@ -13,23 +13,23 @@ MonoBehaviour:
   m_Name: Scores
   m_EditorClassIdentifier: 
   _scores:
-  - _name: Dan
-    _score: 1000
-  - _name: Can
-    _score: 146
-  - _name: Jack
-    _score: 100
-  - _name: Ash
-    _score: 50
-  - _name: Bob
-    _score: 40
-  - _name: Lester
-    _score: 30
-  - _name: Clem
-    _score: 20
-  - _name: Jo
-    _score: 12
-  - _name: Festus
-    _score: 5
-  - _name: Jon
+  - _name: "NAME\u200B"
+    _score: 225
+  - _name: "NAME\u200B"
+    _score: 1
+  - _name: ___
+    _score: 0
+  - _name: ___
+    _score: 0
+  - _name: ___
+    _score: 0
+  - _name: ___
+    _score: 0
+  - _name: ___
+    _score: 0
+  - _name: ___
+    _score: 0
+  - _name: ___
+    _score: 0
+  - _name: ___
     _score: 0

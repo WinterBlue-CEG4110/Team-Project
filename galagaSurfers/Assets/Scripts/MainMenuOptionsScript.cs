@@ -36,6 +36,9 @@ public class MainMenuOptionsScript : MonoBehaviour
     }
 
     public void SetMusicVolume() { // KL
+        if(mySlider == null){
+            return;
+        }
         // Set the music parameter base on slider value
         float volume = mySlider.value;
         // myMixer.SetFloat("music", volume); The slider value ranges from 0 to 1 only, which is not helpful
@@ -44,6 +47,9 @@ public class MainMenuOptionsScript : MonoBehaviour
     }
 
     private void LoadVolume() { // KL
+        if(mySlider == null){
+            return;
+        }
         mySlider.value = PlayerPrefs.GetFloat("musicVolume"); // Load previous volume setting
         SetMusicVolume(); // Set the volume using loaded value
     }
