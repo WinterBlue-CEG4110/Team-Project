@@ -15,7 +15,7 @@
   * 2.3: Player character fires a projectile
     * Projectile Class makes the projectile move vertically upwards at a constant speed defined by moveSpeed. It implements a projectile that falls or moves upward in the game world.
       ![Projectile](./MVP-media/2.3.png)
-        * 2.31: Projectile is fired upon pressing a key
+     * 2.31: Projectile is fired upon pressing a key
 
    
 
