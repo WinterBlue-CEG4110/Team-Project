@@ -1,4 +1,4 @@
-# CODENAME: GalagaSurfers
+# CODENAME: Supernova
 Stakeholders:  
 * Thavindu Wijesena
 * John McGuff
