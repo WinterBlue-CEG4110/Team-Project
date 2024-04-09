@@ -1,4 +1,4 @@
-# CODENAME: <span style="font-family:Papyrus; ">SUPERNOVA</span>
+# CODENAME: SUPERNOVA
 Stakeholders:  
 * Thavindu Wijesena
 * John McGuff
