@@ -7,9 +7,26 @@ using UnityEngine.SceneManagement;
 //Controls for the main menu ui elements
 public class MainMenuScript : MonoBehaviour
 {
+    public GameObject mainMenuUI;
+    public GameObject optionsUI;
+    public GameObject creditsUI;
     //Loads the main game scene
     public void StartGame() {
         SceneManager.LoadScene("MainScene");
+    }
+
+    public void OpenOptions() {
+        mainMenuUI.SetActive(false);
+        optionsUI.SetActive(true);
+    }
+
+    public void showScoreboard() {
+        SceneManager.LoadScene("Scoreboard");
+    }
+
+    public void ShowCredits() {
+        mainMenuUI.SetActive(false);
+        creditsUI.SetActive(true);
     }
 
     //Exits the application
