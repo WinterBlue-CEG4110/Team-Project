@@ -61,7 +61,7 @@ public class GameManager : MonoBehaviour
         timer+= Time.deltaTime;
         //Every ten seconds, give the player some points (as a treat)
         
-        if(timer > 1 && _gameState != GameState.gameOver)
+        if(timer > 10 && _gameState != GameState.gameOver)
         {
             AddScore(5);
             timer = 0;

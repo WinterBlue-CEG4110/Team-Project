@@ -100,6 +100,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d8771abeb6441c4590072f57a9dffd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  respawnTime: 3
+  moveSpeed: 4
+  gameManager: {fileID: 0}
 --- !u!61 &5017295975761954182
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -13,6 +13,7 @@ public class enemyShip : MonoBehaviour
 
     public float respawnTime = 3f; // Respawn time in seconds
     public float moveSpeed = 4;
+    public GameManager gameManager;
 
     void Start()
     {
@@ -33,6 +34,7 @@ public class enemyShip : MonoBehaviour
     {
         if (collision.gameObject.tag == "Boundry" || collision.gameObject.tag == "Player")
         {
+            gameManager.AddScore(10);
             Respawn();
         }
     }
