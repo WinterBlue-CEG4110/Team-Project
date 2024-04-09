@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: f1e9da947d7cd0a42b79aa8579d8acd8
+<<<<<<<< HEAD:galagaSurfers/Assets/EnemySceneImpl.unity.meta
+guid: aa56243ab72866744a6e3ef0d15c8018
+========
+guid: cbcfb79c35afdc94b97d3770ca5a4c57
+>>>>>>>> SCORE-OPTIONS-AND-CREDITS-UI:galagaSurfers/Assets/OptionsMenuImpl.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

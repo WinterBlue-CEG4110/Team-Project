@@ -12,6 +12,7 @@ public class enemyShip : MonoBehaviour
     private bool isRespawning = false; // Flag to track if the enemy is respawning
 
     public float respawnTime = 3f; // Respawn time in seconds
+    public float moveSpeed = 4;
 
     void Start()
     {
@@ -24,7 +25,7 @@ public class enemyShip : MonoBehaviour
         // Move the bot downwards only if it hasn't reached the stopY position and is not respawning
         if (transform.position.y > stopY && !isRespawning)
         {
-            transform.Translate(Vector2.down * Time.deltaTime);
+            transform.Translate(Vector2.down * moveSpeed * Time.deltaTime);
         }
     }
 

@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 //Created by: Kha Le
 //Controls the behaviour of the music sound effect
-
+//Modified by John McGuff on 4/8/24
 public class AudioManager : MonoBehaviour
 {
     public AudioSource musicSource;
@@ -21,7 +21,7 @@ public class AudioManager : MonoBehaviour
         Scene currentScene = SceneManager.GetActiveScene(); // get the current scene
         Debug.Log("Current Scene: " + currentScene.name);
         // play the music based on what curren scene is
-        if (currentScene.name == "StartMenu") {
+        if (currentScene.name == "StartMenu" || currentScene.name == "Scoreboard") {
             musicSource.clip = menu;
         } else if (currentScene.name == "OptionsMenuImpl") {
             musicSource.clip = background;
