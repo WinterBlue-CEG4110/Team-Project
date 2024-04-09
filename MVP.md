@@ -1,3 +1,15 @@
+# CODENAME: GalagaSurfers
+Stakeholders:  
+* Thavindu Wijesena
+* John McGuff
+* Long Nguyen
+* Kha Le
+## Overview
+Concept: A hybrid 2d galaga clone and an autorunner in the same vein as some mobile games like Subway Surfers on the windows platform.
+Story: TBD
+Setting: TBD
+Structure: The game takes place on a 2D plane with players avoiding enemies and moving forward for as long as they can until something destroys them. The game continues to spawn more and different kinds of enemies until the game ends with the player's death. As the game continues, the player gains score based on time survived and enemies destroyed. The goal of the game is to simply get as high of a score as you can before you inevitably lose.
+
 * 1.0 Basic Menus
 * UI Design: John McGuff
 
