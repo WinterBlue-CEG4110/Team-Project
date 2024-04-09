@@ -12,3 +12,5 @@ Fireworks explosion 1: MaoDin204, Creative Commons 0, https://freesound.org/peop
 2024-02-16_Background-Sound_Game-music_Remix: kevp888, Attribution NonCommercial 4.0, https://freesound.org/people/kevp888/sounds/723909/
 
 Mass Effect Inspired Menu music: FuzzyTues, Creative Commons 0, https://freesound.org/people/FuzzyTues/sounds/726008/
+
+Asteroid Image- https://img.itch.zone/aW1nLzM2Nzc0NDAucG5n/315x250%23c/t26Llb.png
