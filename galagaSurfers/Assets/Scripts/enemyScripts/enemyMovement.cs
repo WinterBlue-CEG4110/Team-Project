@@ -1,3 +1,4 @@
+// created by: Long Nguyen
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -38,6 +39,11 @@ public class enemyMovement : MonoBehaviour
         if (collision.gameObject.tag == "Boundry")
         {
             Respawn();
+        }
+        if (collision.gameObject.tag == "Player")
+        {
+            Respawn();
+            collision.gameObject.GetComponent<Health>().TakeDamage();
         }
     }
 
