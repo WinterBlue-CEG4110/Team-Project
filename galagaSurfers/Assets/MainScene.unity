@@ -469,11 +469,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1547007387068764633, guid: 1f1a3e227378a33479e2f3a3ae4acc75, type: 3}
       propertyPath: shootInterval
-      value: 1.5
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7578888381913971704, guid: 1f1a3e227378a33479e2f3a3ae4acc75, type: 3}
+      propertyPath: moveSpeed
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7578888381913971704, guid: 1f1a3e227378a33479e2f3a3ae4acc75, type: 3}
       propertyPath: respawnTime
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8133848716348063886, guid: 1f1a3e227378a33479e2f3a3ae4acc75, type: 3}
       propertyPath: m_Name
@@ -1775,11 +1779,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1547007387068764633, guid: 1f1a3e227378a33479e2f3a3ae4acc75, type: 3}
       propertyPath: shootInterval
-      value: 1.5
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7578888381913971704, guid: 1f1a3e227378a33479e2f3a3ae4acc75, type: 3}
+      propertyPath: moveSpeed
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7578888381913971704, guid: 1f1a3e227378a33479e2f3a3ae4acc75, type: 3}
       propertyPath: respawnTime
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8133848716348063886, guid: 1f1a3e227378a33479e2f3a3ae4acc75, type: 3}
       propertyPath: m_Name
@@ -2860,11 +2868,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1547007387068764633, guid: 1f1a3e227378a33479e2f3a3ae4acc75, type: 3}
       propertyPath: shootInterval
-      value: 1.5
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7578888381913971704, guid: 1f1a3e227378a33479e2f3a3ae4acc75, type: 3}
+      propertyPath: moveSpeed
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7578888381913971704, guid: 1f1a3e227378a33479e2f3a3ae4acc75, type: 3}
       propertyPath: respawnTime
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8133848716348063886, guid: 1f1a3e227378a33479e2f3a3ae4acc75, type: 3}
       propertyPath: m_Name
@@ -3892,11 +3904,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1547007387068764633, guid: 1f1a3e227378a33479e2f3a3ae4acc75, type: 3}
       propertyPath: shootInterval
-      value: 1.5
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7578888381913971704, guid: 1f1a3e227378a33479e2f3a3ae4acc75, type: 3}
+      propertyPath: moveSpeed
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7578888381913971704, guid: 1f1a3e227378a33479e2f3a3ae4acc75, type: 3}
       propertyPath: respawnTime
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8133848716348063886, guid: 1f1a3e227378a33479e2f3a3ae4acc75, type: 3}
       propertyPath: m_Name
@@ -4637,11 +4653,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1547007387068764633, guid: 1f1a3e227378a33479e2f3a3ae4acc75, type: 3}
       propertyPath: shootInterval
-      value: 1.5
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7578888381913971704, guid: 1f1a3e227378a33479e2f3a3ae4acc75, type: 3}
+      propertyPath: moveSpeed
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7578888381913971704, guid: 1f1a3e227378a33479e2f3a3ae4acc75, type: 3}
       propertyPath: respawnTime
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8133848716348063886, guid: 1f1a3e227378a33479e2f3a3ae4acc75, type: 3}
       propertyPath: m_Name

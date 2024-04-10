@@ -8,7 +8,7 @@ public class enemyShip : MonoBehaviour
     private float leftBoundry = -10f; // Define left boundary
     private float rightBoundry = 10f; // Define right boundary
     private float topBoundry = 7f; // Define top boundary
-    private float stopY = 2.7f; // Define the "y" position where the enemy should stop
+    public float stopY = 2.7f; // Define the "y" position where the enemy should stop
     private bool isRespawning = false; // Flag to track if the enemy is respawning
 
     public float respawnTime = 3f; // Respawn time in seconds
