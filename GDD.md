@@ -4,6 +4,7 @@ Stakeholders:
 * John McGuff
 * Long Nguyen
 * Kha Le
+
 Overview
 Concept: A hybrid 2d galaga clone and an autorunner in the same vein as some mobile games like Subway Surfers on the windows platform.
 Story: TBD
