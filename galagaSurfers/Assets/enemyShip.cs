@@ -13,7 +13,13 @@ public class enemyShip : MonoBehaviour
 
     public float respawnTime = 3f; // Respawn time in seconds
     public float moveSpeed = 4;
-    public GameManager gameManager;
+    GameManager gameManager;
+
+    void Awake() 
+    {
+        
+        gameManager = Object.FindObjectsOfType<GameManager>()[0];
+    }
 
     void Start()
     {

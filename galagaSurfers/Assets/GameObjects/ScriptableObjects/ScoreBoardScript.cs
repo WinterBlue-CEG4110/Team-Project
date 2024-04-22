@@ -12,10 +12,10 @@ public class ScoreBoardScript : MonoBehaviour
     public ScoreData Scores;
     public GameObject ScoreLine;
     public GameObject ScoreBoard;
-    // void Awake() 
-    // {
-    //     Scores.Load();
-    // }
+    void Awake() 
+    {
+        Scores.Load();
+    }
     // Start is called before the first frame update
     void Start()
     {
